@@ -3,7 +3,7 @@ package ppsi
 import (
 	"fmt"
 	"github.com/dedis/cothority/ppsi/lib"
-	"github.com/dedis/onet"
+	"gopkg.in/dedis/onet.v1"
 	"testing"
 )
 
