@@ -1,8 +1,8 @@
 package ppsi
 
 import (
-	"github.com/dedis/onet"
-	"github.com/dedis/crypto/abstract"
+	"gopkg.in/dedis/crypto.v0/abstract"
+	"gopkg.in/dedis/onet.v1"
 )
 
 type Init struct {
