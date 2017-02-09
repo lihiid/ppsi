@@ -3,8 +3,8 @@ package ppsi
 import (
 	"fmt"
 	"github.com/dedis/cothority/ppsi/lib"
-	"github.com/dedis/crypto/abstract"
-	"github.com/dedis/onet"
+"gopkg.in/dedis/crypto.v0/abstract"
+	"gopkg.in/dedis/onet.v1"
 )
 
 func init() {
