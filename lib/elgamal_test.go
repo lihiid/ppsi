@@ -2,7 +2,8 @@ package lib
 
 
 import (
-	"gopkg.in/dedis/crypto.v0/nist"
+	//"gopkg.in/dedis/crypto.v0/nist"
+	"github.com/lihiid/Crypto/nist"
 	"gopkg.in/dedis/crypto.v0/random"
 	"testing"
 )
