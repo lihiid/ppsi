@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"github.com/BurntSushi/toml"
-	"github.com/dedis/cothority/ppsi/protocol"
-	"github.com/dedis/cothority/ppsi/lib"
+	"github.com/lihiid/ppsi/protocol"
+	"github.com/lihiid/ppsi/lib"
 	"gopkg.in/dedis/onet.v1"
 	"gopkg.in/dedis/onet.v1/log"
 	"gopkg.in/dedis/onet.v1/network"
