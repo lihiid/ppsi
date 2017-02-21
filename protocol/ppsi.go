@@ -2,7 +2,7 @@ package protocol
 
 import (
 	"fmt"
-	"github.com/dedis/cothority/ppsi/lib"
+	"github.com/lihiid/ppsi/lib"
         //"gopkg.in/dedis/crypto.v0/abstract"
 	"github.com/lihiid/Crypto/abstract"
 	"gopkg.in/dedis/onet.v1"
