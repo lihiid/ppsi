@@ -29,7 +29,7 @@ func NewSimulation(config string) (onet.Simulation, error) {
 	return jvs, nil
 }
 
-// Setup configures a JVSS simulation
+
 func (jvs *Simulation) Setup(dir string, hosts []string) (*onet.SimulationConfig, error) {
 	sim := new(onet.SimulationConfig)
 	jvs.CreateRoster(sim, hosts, 2000)
