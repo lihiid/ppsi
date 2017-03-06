@@ -10,6 +10,8 @@ import (
 	"gopkg.in/dedis/onet.v1/network"
 	"gopkg.in/dedis/onet.v1/simul/monitor"
 	"gopkg.in/dedis/onet.v1/simul"
+	"os"
+	"bufio"
 )
 
 func init() {
