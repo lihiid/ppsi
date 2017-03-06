@@ -21,12 +21,14 @@ func NewPH(suite abstract.Suite) *PH {
 	return ph
 }
 
+
 //Create encryption and decryption keys
-func (c *PH) createKeys() {
+func (c *PPSI) createKeys() {
 
-	enckey := c.suite.Scalar().Pick(random.Stream) // ephemeral private key
+	b:=c.suite.Scalar().Zero()
+	enckey := c.suite.Scalar().Pick(random.Stream)
 
-	for !c.suite.Scalar().Gcd(enckey).Equal(c.suite.Scalar().One()) {
+	for !c.suite.Scalar().Gcd(enckey,b).Equal(c.suite.Scalar().One()) {
 		enckey = c.suite.Scalar().Pick(random.Stream)
 	}
 
